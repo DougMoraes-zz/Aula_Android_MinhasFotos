@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "940432280979",
+    "firebase_url": "https://minhasfotos-eab6a.firebaseio.com",
+    "project_id": "minhasfotos-eab6a",
+    "storage_bucket": "minhasfotos-eab6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940432280979:android:111cd14226e755e6",
+        "android_client_info": {
+          "package_name": "br.edu.infnet.minhasfotos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940432280979-606a5f80uvbnbmkeq4vafivdfk94pan7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.infnet.minhasfotos",
+            "certificate_hash": "8fea4f6ad6f2d7e3f9a55ed261e93c666e933207"
+          }
+        },
+        {
+          "client_id": "940432280979-k98i6sfo75br088jfg4naoqhcbrjj4pt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR0btwpX7AVzDh9R4qwmh32-ov1TZY1dg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940432280979-k98i6sfo75br088jfg4naoqhcbrjj4pt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
