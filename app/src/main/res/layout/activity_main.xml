@@ -6,13 +6,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.edu.infnet.minhasfotos.MainActivity">
+    tools:context="br.edu.infnet.minhasfotos.MainActivity"
+    android:weightSum="1">
 
     <TextView
         android:id="@+id/txtTiulo"
         android:text ="Minhas Fotos"
         android:textSize="30dp"
-        android:Allignment = "center"
+        android:textAlignment="center"
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -25,7 +26,15 @@
     <GridView
         android:id="@+id/gvGaleria"
         android:numColumns="3"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent" />
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnNovaFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nova Foto" />
+
 
 </LinearLayout>
